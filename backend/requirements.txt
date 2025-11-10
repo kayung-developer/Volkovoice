@@ -1,0 +1,27 @@
+# Core Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+databases[aiosqlite]
+sqlalchemy
+asyncpg # For production PostgreSQL
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+firebase-admin
+
+# AI & Machine Learning
+torch
+transformers
+TTS
+pyannote.audio
+sentence-transformers
+keybert
+openai
+
+# Utilities
+pydantic-settings
+python-json-logger
+slowapi

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Define custom properties for colors for easier management */
+  :root {
+    --color-primary: #4F46E5;
+    --color-secondary: #10B981;
+    --background-light: #f9fafb; /* gray-50 */
+    --text-light: #111827;       /* gray-900 */
+    --background-dark: #111827;  /* gray-900 */
+    --text-dark: #f3f4f6;         /* gray-100 */
+  }
+
+  body {
+    @apply bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark;
+    @apply font-sans antialiased;
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  /* Custom scrollbar for a more modern look */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4b5563; /* gray-600 */
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* gray-500 */
+  }
+
+  /* Custom text selection color */
+  ::selection {
+    background-color: var(--color-primary);
+    color: white;
+  }
+}

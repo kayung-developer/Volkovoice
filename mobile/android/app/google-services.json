@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276122273447",
+    "project_id": "volkovoice-ai",
+    "storage_bucket": "volkovoice-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276122273447:android:07c7964b25454150157d82",
+        "android_client_info": {
+          "package_name": "com.volkovoice.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276122273447-0tq24k3gvtilfekqlg86n5ef03e6u9s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcdmUKawMLP9nZfresUFtaCoX8cBL209c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276122273447-0tq24k3gvtilfekqlg86n5ef03e6u9s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
